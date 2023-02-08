@@ -1,0 +1,54 @@
+:root{
+    --Woodsmoke:#2C3333;
+    --Corduroy:#3F4848;
+    --Cello:#395B64;
+    --Opal:#A5C9CA;
+    --WhiteIce:#E7F6F2;
+}
+body{
+    background-color: var(--Woodsmoke);
+    margin: auto 0;
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    gap: 1em;
+}
+.Navbar__Hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.Navbar__Hamburger:hover{
+    background-color: var(--Corduroy);
+}
+.navbar__Hamburger__line{
+    display: block;
+    width: 65%;
+    height: 2px;
+    margin: 5px 0;
+
+}
+.Navbar__Menu{
+    display: block;
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    width: 100vw;
+    transition: all 0.3s ease-in-out;
+}
+.Navbar__Menu.Visible{
+    opacity: 1;
+    height: 199px;
+    display: block;
+}
+
