@@ -66,6 +66,9 @@ body{
     text-decoration: none;
     padding: .5em;
 }
+.Navbar__Menu__Item:hover{
+    background-color: var(--onyx);
+}
 .Navbar__Menu__Item--Active{
     color: var(--staleblue);
     font-weight: 700;
@@ -106,7 +109,7 @@ body{
      }
      
 }
-@media only screen and (min-width: 768px  ){
+@media only screen and (min-width: 750px  ){
     .Navbar__Hamburger{
      display: none;
     }
@@ -121,5 +124,7 @@ body{
     .Navbar__Menu--links{
         display: flex;
         transition: 0.5s;
+        height: 50px;
+        align-items: center;
     }
 }
