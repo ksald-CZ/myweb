@@ -28,7 +28,7 @@ body{
 .Navbar__Hamburger:hover{
     background-color: var(--Corduroy);
 }
-.navbar__Hamburger__line{
+.Navbar__Hamburger__line{
     display: block;
     width: 65%;
     height: 2px;
@@ -51,4 +51,17 @@ body{
     height: 199px;
     display: block;
 }
-
+.Navbar__Menu__Item{
+    display: block;
+    color:var(--WhiteIce);
+    text-decoration: none;
+    padding: .5em;
+}
+.Navbar__Menu__Item--Active{
+    color: var(--Opal);
+    font-weight: 700;
+}
+.Icon{
+    display: inline-block;
+    font-size: 1.5rem;
+}
