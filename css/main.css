@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 :root{
+    font-family: 'Teko', sans-serif;
     --Woodsmoke:#2C3333;
     --Corduroy:#3F4848;
     --Cello:#395B64;
-    --Opal:#A5C9CA;
+    --Opal:#a5c9ca;
     --WhiteIce:#E7F6F2;
+    --ShadowGreen:#90BCBE;
 }
 body{
     background-color: var(--Woodsmoke);
@@ -64,4 +67,13 @@ body{
 .Icon{
     display: inline-block;
     font-size: 1.5rem;
+}
+.img{
+    width: 100%;
+    height: auto
+}
+.Header__logo{
+    width: 16em;
+    height: 16em;
+    border-radius: 100%;
 }
