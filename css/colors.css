@@ -7,3 +7,12 @@
 .lin3{
     background-color: var(--WhiteIce);
 }
+.tx1{
+    color:var(--Opal);
+}
+.tx2{
+    color: var(--ShadowGreen);
+}
+.txdef{
+    color:var(--WhiteIce);
+}
