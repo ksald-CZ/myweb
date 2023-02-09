@@ -108,6 +108,18 @@ body{
 }
 @media only screen and (min-width: 768px  ){
     .Navbar__Hamburger{
-    
+     display: none;
+    }
+    .Navbar__Menu{
+    opacity: 1;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    }
+    .Navbar__Menu--links{
+        display: flex;
+        transition: 0.5s;
     }
 }
