@@ -111,6 +111,15 @@ body{
      .Header__title{
          font-size: 2.5em;
      }
+     .device{
+        margin: 1.5em;
+        margin-top: 2em;
+        background-color:var(--verydark) ;
+        border-radius: 1em 1em 1em 1em;
+        color: var(--aero);
+        text-align: center;
+        padding:.5em 0;
+    }
      
 }
 @media only screen and (min-width: 750px  ){
@@ -139,19 +148,19 @@ body{
     .Header--height{
         height: 15vh;
     }
+    .section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .device{
+        padding:0.5em;
+        margin: 1em;
+        margin-top: 1.5em;
+    }
 }
-.section{
-    
-}
-.device{
-    margin: 1.5em;
-    margin-top: 2em;
-    background-color:var(--verydark) ;
-    border-radius: 1em 1em 1em 1em;
-    color: var(--aero);
-    text-align: center;
-    padding:.5em 0;
-}
+
+
 .device ul{
     list-style-type: none;
 }
