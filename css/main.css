@@ -139,3 +139,13 @@ body{
         height: 15vh;
     }
 }
+.section{
+    padding: 1em;
+    padding-top: 2em;
+}
+.device{
+    text-align: center;
+}
+.device ul{
+    list-style-type: none;
+}
