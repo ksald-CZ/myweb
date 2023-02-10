@@ -92,7 +92,7 @@ body{
     padding: 1em;
 }
 .Header--height{
-    height: 35vh;
+    height: unset;
 }
 @media only screen and (min-width: 320px  ){
     .Header__text{
