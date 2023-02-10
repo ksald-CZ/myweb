@@ -1,18 +1,15 @@
 .lin1{
-    background-color: var(--Cello);
+    background-color: var(--frechviolet);
 }
 .lin2{
-    background-color: var(--Opal);
+    background-color: var(--garape);
 }
 .lin3{
-    background-color: var(--WhiteIce);
+    background-color: var(--staleblue);
 }
 .tx1{
-    color:var(--Opal);
+    color:var(--unblue);
 }
 .tx2{
-    color: var(--ShadowGreen);
-}
-.txdef{
-    color:var(--WhiteIce);
+    color: var(--staleblue);
 }
