@@ -146,9 +146,9 @@ body{
 .device{
     margin: 1.5em;
     margin-top: 2em;
-    background-color:var(--aero) ;
+    background-color:black ;
     border-radius: 1em 1em 1em 1em;
-    color: var(--eerieblack);
+    color: var(--aero);
     text-align: center;
     padding:.5em 0;
 }
