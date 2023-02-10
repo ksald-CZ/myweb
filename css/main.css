@@ -102,15 +102,7 @@ body{
      .Header__title{
          font-size: 2em;
      }
-     .device{
-        margin: 1.5em;
-        margin-top: 2em;
-        background-color:var(--verydark) ;
-        border-radius: 1em 1em 1em 1em;
-        color: var(--aero);
-        text-align: center;
-        padding:.5em 0;
-    }
+
      
 }
 @media only screen and (min-width: 425px  ){
@@ -161,7 +153,15 @@ body{
     }
 }
 
-
+.device{
+    margin: 1.5em;
+    margin-top: 2em;
+    background-color:var(--verydark) ;
+    border-radius: 1em 1em 1em 1em;
+    color: var(--aero);
+    text-align: center;
+    padding:.5em 0;
+}
 .device ul{
     list-style-type: none;
 }
