@@ -160,7 +160,7 @@ body{
     border-radius: 1em 1em 1em 1em;
     color: var(--aero);
     text-align: center;
-    padding:.5em 0;
+    padding:.5em;
 }
 .device ul{
     list-style-type: none;
