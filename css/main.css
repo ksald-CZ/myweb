@@ -145,13 +145,18 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: row;
+        padding: 0 5em 0 5em; /*Tohle pripadne upravit podle gusta*/
+    }
+    .section > * {
+        flex: 1 1 0px;
+    }
+
     }
     .device{
         padding:0.5em;
         margin: 1em;
         margin-top: 1.5em;
     }
-}
 
 .device{
     margin: 1.5em;
