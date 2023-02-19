@@ -19,6 +19,7 @@ body{
     margin: auto 0;
 }
 .Header{
+   
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -149,6 +150,13 @@ body{
     }
     .section > * {
         flex: 1 1 0px;
+    }
+    .Header{
+        justify-content: center;
+    }
+    .Navbar__Menu{
+        position: absolute;
+        top: 0;
     }
 
     }
