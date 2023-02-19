@@ -19,7 +19,7 @@ body{
     margin: auto 0;
 }
 .Header{
-    justify-content: center;
+   
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,8 +47,6 @@ body{
 }
 
 .Navbar__Menu{
-    position: absolute;
-    top: 0;
     display: block;
     height: 0;
     overflow: hidden;
@@ -152,6 +150,13 @@ body{
     }
     .section > * {
         flex: 1 1 0px;
+    }
+    .Header{
+        justify-content: center;
+    }
+    .Navbar__Menu{
+        position: absolute;
+        top: 0;
     }
 
     }
