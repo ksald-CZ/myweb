@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/main.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Daniel Dlask | Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/main.js"></script>
+  <link rel="preload" as="image" href="./media/portrait.jpg">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Daniel Dlask | Home</title>
 </head>
 <body>
-    <header class="Header">
-        <nav class="Navbar">
-            <div class="Navbar__Hamburger">
-                <span class="Navbar__Hamburger__line lin1"></span>
-                <span class="Navbar__Hamburger__line lin2"></span>
-                <span class="Navbar__Hamburger__line lin3"></span>
-            </div>
-            </div>
-            <div class="Navbar__Menu">
-                <div class="Navbar__Menu--links">
-                    <a class="Navbar__Menu__Item Navbar__Menu__Item--Active" href="./"class >Home</a>
-                    <a class="Navbar__Menu__Item"  href="./sites/devices.html">Devices</a>
-                    <a class="Navbar__Menu__Item" href="./sites/experience.html">Experience</a>
-                    <a class="Navbar__Menu__Item" href="./sites/work.html" >My Work</a>
-                </div>
-                <div class="Navbar__Menu--links">
-                    <a class="Navbar__Menu__Item Icon" href="mailto:daniel@dlask.eu" aria-label="email">
-                        <span class="icon-mail4"></span>
-                    </a>
-                    <a class="Navbar__Menu__Item Icon" href="https://github.com/ksald-CZ" aria-label="github">
-                        <span class="icon-github"></span>
-                    </a>
-                    <a class="Navbar__Menu__Item Icon" href="https://www.instagram.com/ksaldcz/" aria-label="instagram">
-                        <span class="icon-instagram"></span>
-                    </a>
-                    <a class="Navbar__Menu__Item Icon" href="https://twitter.com/DDlask" aria-label="twitter">
-                        <span class="icon-twitter"></span>
-                    </a>
-                    
-                </div>
-            </div>
-        </nav>
-        <div class="header__body">
-            <img class="Header__logo" src="./media/IMG_3510.jpg" alt="photo of myself " width="256" height="256">
-            <h1 class="Header__title tx1">Daniel <span class="tx2">Dlask</spn ></h1>
-            <p class="Header__text">
-                I am 17 years old developer, that enjoys fps and rpg games.
-            </p>
-        </div>
-    </header>
-    
-
+<header>
+  <nav>
+    <div class="Navbar__Hamburger">
+      <span class="Navbar__Hamburger__line lin1"></span>
+      <span class="Navbar__Hamburger__line lin2"></span>
+      <span class="Navbar__Hamburger__line lin3"></span>
+    </div>
+    <div class="Navbar__Menu">
+      <menu class="Navbar__Menu--links">
+        <li><a class="Navbar__Menu__Item Navbar__Menu__Item--Active" href="#" >Home</a></li>
+        <li><a class="Navbar__Menu__Item"  href="./sites/devices.html">Devices</a></li>
+        <li><a class="Navbar__Menu__Item" href="./sites/experience.html">Experience</a></li>
+        <li><a class="Navbar__Menu__Item" href="./sites/work.html" >My Work</a></li>
+      </menu>
+      <div class="Navbar__Menu--links">
+        <a class="Navbar__Menu__Item Icon" href="mailto:daniel@dlask.eu" aria-label="email">
+          <span class="icon-mail4"></span>
+        </a>
+        <a class="Navbar__Menu__Item Icon" href="https://github.com/ksald-CZ" aria-label="github">
+          <span class="icon-github"></span>
+        </a>
+        <a class="Navbar__Menu__Item Icon" href="https://www.instagram.com/ksaldcz/" aria-label="instagram">
+          <span class="icon-instagram"></span>
+        </a>
+        <a class="Navbar__Menu__Item Icon" href="https://twitter.com/DDlask" aria-label="twitter">
+          <span class="icon-twitter"></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="main">
+  <div class="main__portrait">
+    <picture>
+      <source class="portrait__picture" srcset="./media/portrait.avif" type="image/avif" />
+      <source class="portrait__picture" srcset="./media/portrait.webp" type="image/webp" />
+      <img class="portrait__picture" src="./media/portrait.jpg" alt="portrait" />
+    </picture>
+  </div>
+  <h1 class="portrait__name tx1">Daniel <span class="tx2">Dlask</span ></h1>
+  <p class="portrait__description">
+    I am 17 years old developer, that enjoys fps and rpg games.
+  </p>
+</div>
 </body>
 </html>
