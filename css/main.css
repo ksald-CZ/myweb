@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* TODO: Change header to not be 0px height */
+/* TODO: Change to em */
+
 :root{
     --verydark:#111316;
     --eerieblack:rgb(22, 26, 29);
@@ -17,6 +21,7 @@ html{
 body{
     background-color: var(--eerieblack);
     margin: auto 0;
+    text-align: center;
 }
 
 h2 {
@@ -24,8 +29,11 @@ h2 {
 }
 
 .main {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .Header{
@@ -51,7 +59,6 @@ h2 {
     width: 65%;
     height: 2px;
     margin: 5px 0;
-
 }
 
 .Navbar__Menu{
@@ -93,11 +100,9 @@ h2 {
     height: auto;
 }
 .main__portrait{
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 16em;
     height: 16em;
-    border-radius: 100%;
 }
 .portrait__description{
     padding: 1em;
@@ -107,6 +112,7 @@ h2 {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    border-radius: 100%;
 }
 .Header--height{
     height: unset;
@@ -150,6 +156,7 @@ h2 {
         height: 50px;
         align-items: center;
         list-style: none;
+        padding: 0;
     }
     .Navbar__Menu__Item{
         height: inherit;
