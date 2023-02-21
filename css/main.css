@@ -163,9 +163,6 @@ h2 {
         display: flex;
         align-items: center;
     }
-    .Header--height{
-        height: 5vh;
-    }
     .section{
         display: flex;
         justify-content: center;
