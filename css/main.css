@@ -163,9 +163,6 @@ h2 {
         display: flex;
         align-items: center;
     }
-    .Header--height{
-        height: 5vh;
-    }
     .section{
         display: flex;
         justify-content: center;
@@ -184,12 +181,12 @@ h2 {
     }
 
     }
-    .device{
+    .device__info{
         padding:0.5em;
         margin: 1.5em 1em 1em;
     }
 
-.device{
+.device__info{
     margin: 2em 1.5em 1.5em;
     background-color:var(--verydark) ;
     border-radius: 1em 1em 1em 1em;
@@ -197,6 +194,6 @@ h2 {
     text-align: center;
     padding:.5em;
 }
-.device ul{
+.device__info ul{
     list-style-type: none;
 }
