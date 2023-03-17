@@ -33,7 +33,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .Header{
@@ -123,20 +122,38 @@ display: flex;
 .expirience__container{
     
 }
-.experience__item{
-
+.expirience__container :hover{
     
 }
+    
+.experience__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: var(--verydark);
+    border-radius: 1em 1em 1em 1em;
+    color: var(--aero);
+    text-align: center;
+    transition: 0.5s;       
+}
+.experience__item :hover {
+    background-color: var(--staleblue);
+    color: var(--verydark);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .expirience__icon{
-
+    font-size: 3em;
+    color: var(--aero);
 }
 .experience__name{
     font-size: 2em;
     font-weight: 700;
 }
-.main__name{
 
-}
 @media only screen and (min-width: 320px  ){
     .portrait__description{
         
@@ -155,10 +172,20 @@ display: flex;
      .portrait__name{
          font-size: 2.5em;
      }
+     .expirience__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
      
      
 }
 @media only screen and (min-width: 750px  ){
+    .main {
+        height: 100vh;
+    }
     .Navbar__Hamburger{
      display: none;
     }
@@ -199,12 +226,13 @@ display: flex;
         position: absolute;
         top: 0;
     }
+    
 
-    }
     .device__info{
         padding:0.5em;
         margin: 1.5em 1em 1em;
     }
+}
 
 .device__info{
     margin: 2em 1.5em 1.5em;
