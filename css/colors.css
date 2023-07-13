@@ -1,15 +1,6 @@
-.lin1{
-    background-color: var(--frechviolet);
-}
-.lin2{
-    background-color: var(--garape);
-}
-.lin3{
-    background-color: var(--staleblue);
-}
-.tx1{
-    color:var(--unblue);
-}
-.tx2{
-    color: var(--staleblue);
-}
+:root {
+    --background-color: #1a1a1a;
+    --accent-color-1: #ff4d4d;
+    --accent-color-2: #ff7a36;
+    --accent-color-3: #ffa500;
+  }
